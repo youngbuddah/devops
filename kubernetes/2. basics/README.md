@@ -7,7 +7,7 @@ This guide includes essential Kubernetes commands for interacting with an EKS cl
 ### ✅ Connect to Kubernetes Cluster using AWS CloudShell
 
 ```bash
-aws eks update-kubeconfig --region <region name. eg: ap-south-1> --name <cluster name>
+aws eks update-kubeconfig --region <region name> --name <cluster name>
 ```
 
 **Description:**
@@ -35,7 +35,7 @@ kubectl run nginx-pod --image=nginx --restart=Never
 **Description:**
 
 > - Creates a single pod running a specified Docker image.
-> - --restart=Never is used to create a standalone pod, not a deployment.
+> - `--restart=Never` is used to create a standalone pod, not a deployment.
 
 ---
 
