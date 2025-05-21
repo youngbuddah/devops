@@ -36,7 +36,7 @@ The IAM user **must have permissions** for the following services:
 
 ### 2. Follow the video tutorial to proceed with cluster and node group creation.
 
-👉 **[Watch the EKS Cluster Setup Video](#)**
+👉 **[Watch the EKS Cluster Setup Video](https://drive.google.com/file/d/1xZGNourGj8O7jQJuzwy-7SVm74DYC_jB/view?usp=sharing)**
 
 ---
 
