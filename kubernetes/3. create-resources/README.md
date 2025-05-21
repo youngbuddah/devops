@@ -150,6 +150,7 @@ kubectl get svc
 ```
 
 Above command will give **Service Port (between 30000 to 30800)**
+🔐 Allow **Service Port** in **AWS EC2 Security Group**
 
 ```bash
 kubectl get nodes -o wide
