@@ -30,7 +30,7 @@ The IAM user **must have permissions** for the following services:
 > - `AmazonVPCFullAccess`
 > - `IAMFullAccess` (or scoped custom policies)
 > - `CloudWatchFullAccess`
-> - `AmazonEKS_CNI_Policy
+> - `AmazonEKS_CNI_Policy`
 
 ---
 
