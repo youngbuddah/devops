@@ -1,4 +1,4 @@
-# 🚀 Kubernetes Deployment & Service: A Practical Example
+# 🚀 Kubernetes Deployment & Service on AWS (EKS)
 
 This project demonstrates how to deploy and expose a containerized application (e.g.,**NGINX**) using **Kubernetes Deployment** and **Service** objects.
 
@@ -148,6 +148,16 @@ A **Service** in Kubernetes exposes your application to the outside world (if ne
 ---
 
 ### 🚀 Deploy & Manage
+
+#### ✅ Open AWS CloudShell
+
+> - Go to the AWS Console and launch **CloudShell** from the top-right menu.
+
+#### ✅ Use below command to connect Cluster using aws CloudShell
+
+```bash
+aws eks update-kubeconfig --region <region name> --name <cluster name>
+```
 
 #### ✅ Apply Deployment
 
