@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-deployment
+  namespace: my-deployment-namespace
+  labels:
+    app: my-label
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: my-label
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  template:
+    metadata:
+      labels:
+        app: my-label
+    spec:
+      containers:
+        - name: my-deployment-container
+          image: nginx:1.14.2
+          ports:
+            - containerPort: 80
